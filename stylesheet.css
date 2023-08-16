@@ -5,12 +5,20 @@
     box-sizing: border-box;
     font-family: 'arial', sans-serif;
 }
-
+#about{
+    margin: 6px;
+    position: relative;
+    top: 25px;
+}
+#source{
+    margin: 6px;
+    position: relative;
+    top: 25px;
+}
 
 .text
 {
-    
-    padding-left: 1200px;
+    padding-left: 1075px;
 }
 #icon1
 {
@@ -23,8 +31,6 @@
     margin-left: 8px;
     position: relative;
     top: 25px;
-
-
 }
 #bars {
     padding: 3px 6px;
@@ -48,32 +54,43 @@
 #google {
     text-align: center;
     position: absolute;
-    left: 35%;
-    top:25%;
+    left: 37%;
+    top: 20%;
     font-size:0px;
 }
 #G{
     color: rgb(19, 171, 247);
     font-size: 95px;
+    position: relative;
+    margin-right: -15px;
 }
 #o1{
     color: red;
     font-size: 80px;
-
+    position: relative;
+    margin-right: -15px;
 }
 #o2{
-    color: yellow;
+    color: rgb(255, 217, 0);
     font-size: 80px;
+    position: relative;
+    margin-right: -15px;
+    position: relative;
+    margin-right: -15px;
 
 }
 #g {
     color: rgb(19, 171, 247);
     font-size: 80px;
+    position: relative;
+    margin-right: -15px;
 
 }
 #l{
     color: rgb(7, 178, 7);
     font-size: 80px;
+    position: relative;
+    margin-right: -15px;
 
 
 }
@@ -98,14 +115,86 @@
 #btn{
     position: absolute;
     width:20px;
-    height: 20px;
+    height:18px;
     top: 350px;
     left: 450px;
 }
 #mic{
     position: absolute;
     width:18px;
-    height: 22px;
-    top: 350px;
+    height:18px;
+    top: 345px;
     left: 977px;
+}
+
+#button1 {
+    position: relative;
+    margin-left: 585px;
+    margin-top: 30px;
+    background:#f0f2f3;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    color: #747373;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#button2{
+    position: relative;
+    background:#f0f2f3;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    color: #747373;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.foo{
+    background-color: #f0f2f3;
+    height: 45px;
+    width: 1539px;
+    position:relative;
+    top: 210px;
+    left: -19px;
+}
+#row1{
+    position: relative;
+    top:175px;
+    left:0px;
+    color: #747373
+}
+#row2{
+    position: relative;
+    top:152px;
+    margin-left: 100px;
+    color: #747373
+}
+#row3{
+    position: relative;
+    top:127px;
+    margin-left: 188px;
+    color: #747373
+}
+#row4{
+    position: relative;
+    top:105px;
+    margin-left: 1270px;
+    color: #747373
+}
+#row5{
+    position: relative;
+    top:88px;
+    margin-left: 1350px;
+    color: #747373
+}
+#row6{
+    position: relative;
+    top:68px;
+    margin-left: 1420px;
+    color: #747373
 }
