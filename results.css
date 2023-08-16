@@ -33,6 +33,7 @@
     width:44px;
 }
 .menu{
+    margin: 12px;
     background-color: transparent;
     border: none;
     outline: none;
@@ -50,7 +51,7 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#ad {
+.ad {
     margin-left: 110px;
     background-color: rgba(255, 217, 0, 0.782);
     height: 20px;
@@ -61,7 +62,17 @@ a {
     border:none;
 }
 span {
+    width: 200px;
     color: darkgreen;
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.info {
+    margin-left: 110px;
+    font-size: 15px;
+    color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.noad{
+    margin-left: 110px;
 }
