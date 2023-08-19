@@ -104,6 +104,7 @@
 
 #placeholder
 {
+    position: relative;
     width: 580px;
     height: 45px;
     padding-left: 50px;
@@ -115,18 +116,18 @@
 }
 
 #btn{
-    position: absolute;
+    position: relative;
     width:20px;
     height:18px;
-    top: 350px;
-    left: 450px;
+    bottom: -5px;
+    left: -580px;
 }
 #mic{
-    position: absolute;
-    width:18px;
-    height:18px;
-    top: 345px;
-    left: 977px;
+    position: relative;
+    width:15px;
+    height:12px;
+    bottom: -7px;
+    right: 85px;
 }
 
 #button1 {
